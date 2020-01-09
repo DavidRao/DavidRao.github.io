@@ -1,0 +1,102 @@
+/*主体*/
+.container{
+    width: 100%;
+}
+.ad{
+    display: none;
+}
+.fire-content{
+    width: 90%;
+    margin: 5rem auto;
+    font-size: 0;
+}
+.fire-content h1{
+    text-align: center;
+    font-size: 3rem;
+}
+.fire-content .item{
+    display: inline-block;
+    width: calc(33.333333% - 2rem);
+    text-align: center;
+    /*background-color: red;*/
+    margin-left: 1.5rem;
+}
+.fire-content .item a{
+    display: inline-block;
+    padding: 2rem;
+}
+.fire-content .item p{
+    font-size: 1.6rem;
+}
+
+@media only screen and (max-width: 43em){
+    .fire-content .item{
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.strive{
+    padding: 3rem 0;
+    background-color: #555555;
+    border-bottom: 1px solid #ffffff;
+    font-size: 0;
+}
+.strive-content{
+    width: 90%;
+    margin: 0 auto;
+}
+.strive-content h1{
+    text-align: center;
+    font-size: 3rem;
+    color: orange;
+    font-weight: bold;
+}
+.strive-content h3{
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 2rem 0;
+}
+.strive-content .item{
+    display: inline-block;
+    width: calc(25%);
+    /*background-color: red;*/
+    padding: 2rem 0;
+}
+.strive-content .item p{
+    font-size: 1.6rem;
+    text-align: center;
+}
+.strive-content .item p span{
+    font-size: 2.8rem;
+    color: orange;
+    font-weight: bold;
+}
+@media only screen and (max-width: 50em){
+    .strive-content .item{
+        width: 33.333333%;
+    }
+    .strive-content .item:nth-child(3){
+        display: none;
+    }
+}
+@media only screen and (max-width: 30em){
+    .strive-content .item{
+        width: 50%;
+    }
+    .strive-content .item:nth-child(4){
+        display: none;
+    }
+    .strive-content h1{
+        font-size: 2.1rem;
+    }
+    .strive-content h3{
+        font-size: 1.5rem;
+    }
+    .strive-content .item p span{
+        font-size: 1.8rem;
+    }
+}

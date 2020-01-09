@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+html{
+    font-size: 62.5%;
+    background-color: white;
+}
+body{
+    line-height: 1.5;
+    font-size: 1.3rem;
+}
+::selection{
+    background-color: palegreen;
+}
+a{
+    color: #666;
+    text-decoration: none;
+}
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
